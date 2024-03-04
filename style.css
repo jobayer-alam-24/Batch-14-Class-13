@@ -20,7 +20,7 @@ body {
 }
 
 .container{
-    width: 80%;
+    width: 85%;
     height: auto;
     background-color: whitesmoke;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -296,4 +296,98 @@ body {
 .icon{
     font-size: 25px;
     margin-right: 7px;
+}
+.serv{
+    color: rgb(86, 23, 204);
+}
+.services-container{
+    display: grid;
+    row-gap: 25%;
+}
+.head-sc{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.9rem;
+}
+.fona{
+    font-size: 30px;
+    color: rgb(86, 23, 204);
+}
+.my{
+    color: white;
+}
+.card-container{
+    display: grid;
+    row-gap: 2%;
+}
+.card-container h3{
+    font-size: 1.4rem;
+}
+
+
+.card-btn button {
+    align-items: center;
+    border: 0;
+    border-radius: 6px;
+    background-color: blue;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: monospace;
+    height: 40px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    font-size: 18px;
+  }
+  
+  .card-btn button:hover{
+    box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  }
+  
+  .card-btn button:focus{
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #0922e2 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .card-btn button:active{
+    box-shadow: #3c4fe0 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+.section-3{
+    padding: 10px 15px;
+    box-sizing: border-box;
+    height: 500px;
+    background: rgb(30, 220, 226);
+    background: linear-gradient(180deg, rgb(17, 201, 176) 23%, rgba(0,191,240,1) 87%);
+}
+.container-main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+.card-container{
+    color: white;
+    flex: 0 0 calc(33.33% - 20px);
+    background: rgba(12, 211, 218, 0.808);
+    background: linear-gradient(180deg, rgba(9, 214, 187, 0.726) 23%, rgba(14, 176, 216, 0.815) 87%);
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 46px 0px rgba(19, 68, 201, 0.671);
+    transition: 1s;
+    cursor: pointer;
+    height: 250px;
+}
+.card-container:hover{
+    transform: scale(1.5); 
+    z-index: 999;   
 }
